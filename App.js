@@ -2,6 +2,8 @@
 // import, main code, export
 import React from 'react';
 import {View, ScrollView} from 'react-native';
+import Flexbox from './Flexbox';
+import Position from './Position';
 import SampleComponent from './SampleComponent';
 import StyleComponent from './StyleComponent';
 
@@ -10,8 +12,10 @@ const App = () => {
   return (
     <View>
       <ScrollView>
-        <SampleComponent />
+        {/* <SampleComponent />
         <StyleComponent />
+        <Flexbox /> */}
+        <Position />
       </ScrollView>
     </View>
   );
