@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 // 3 bagian sederhana
 // import, main code, export
 import React from 'react';
